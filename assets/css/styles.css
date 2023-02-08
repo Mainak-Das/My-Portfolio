@@ -1173,6 +1173,15 @@ img {
   .home_scroll{
     display: none;
   }
+    
+    .home_container{
+    padding-top: 2rem;
+  }
+
+  .home_social{
+    top: 2.3rem;
+    right: .2rem;
+  }
 
   .about_img{
     width: 200px;
