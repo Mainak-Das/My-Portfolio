@@ -1145,7 +1145,13 @@ img {
 /* For small devices */
 @media screen and (min-width: 50px) and (max-width: 600px)
 {
-  
+  .home_title{
+    font-size: var(--big-font-size);
+    line-height: 104%;
+    margin-top: 2rem;
+    margin-bottom: var(--mb-0-75);
+  }
+    
   .home_description{
     display: none;
   }
