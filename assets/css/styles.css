@@ -1148,7 +1148,7 @@ img {
   .home_title{
     font-size: var(--big-font-size);
     line-height: 104%;
-    margin-top: 2rem;
+    margin-top: 3 rem;
     margin-bottom: var(--mb-0-75);
   }
     
