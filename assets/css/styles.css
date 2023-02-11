@@ -1529,7 +1529,7 @@ img {
     height: auto;
     overflow: hidden;
     padding-right: 50px;
-    padding-left: 0px;
+/*     padding-left: 0px; */
     order: 1;
   }
 
