@@ -317,12 +317,16 @@ img {
 #my-img{
   justify-self: center;
   width: 180px;
-  /* padding-left: 10px; */
-  /* padding-top: 15px; */
   overflow: hidden;
   margin-bottom: var(--mb-1);
+  pointer-events: none;
+  cursor: default;
 }
 
+#conact-me-vector{
+  pointer-events: none;
+  cursor: default;
+}
 
 .home_title{
   font-size: var(--big-font-size);
