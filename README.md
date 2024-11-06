@@ -1,49 +1,61 @@
 # Mainak's Portfolio
 
-Hey I'm Mainak👋 Welcome to my GitHub portfolio! This repository showcases a collection of my projects, achievements, and skills.
+Welcome to my personal portfolio! This repository showcases my skills, projects, and experiences in Computer Science, AI/ML, web development, and graphic design. Below is an overview of the project structure, highlighting the purpose of each folder.
 
-## About Me
+## Project Structure
 
-Flexible, autonomous Computer Science undergrad looking to leverage experience building responsive and scalable web apps to solve problems that delight end-users. Motivated to learn from senior engineers while sharing innovative ideas in an environment that values personal growth.
+```
+My-Portfolio/
+│
+├── assets/
+│   ├── images/
+│   └── icons/
+│
+├── css/
+│   └── styles.css
+│
+├── js/
+│   ├── main.js
+│   └── utils.js
+│
+├── index.html
+├── README.md
+└── .gitignore
+```
 
-## Portfolio Highlights
+### Folder Descriptions
 
-### Project 1: DigiXam
+#### `assets/`
+This folder contains all media files used in the portfolio, including images and icons.
 
-Description: DigiXam is a web-based online examination system. I have used HTML, CSS, JavaScript, and Bootstrap for designing the frontend, and the backend is designed using Java and MySQL (the database). This Online Examination System is a software solution, that allows any institute or organization to arrange, conduct, and manage examinations via an online environment.
-The main goal of this online examination system is to effectively evaluate the student through a totally automated system that saves a lot of time for the users. It gives a single platform environment to evaluate all the things together.
+- **images/**: Contains images such as profile pictures, project screenshots, and other visual elements used throughout the portfolio.
+- **icons/**: Holds various icons (e.g., social media links, technology logos) used in the website.
 
-Repository: https://github.com/Mainak-Das/DigiXam
+#### `css/`
+This folder holds the stylesheet for the portfolio website.
 
-### Project 2: My Portfolio
+- **styles.css**: Contains all the custom styles that define the look and feel of the portfolio. This file is linked in the `index.html` to style the page.
 
-Description: The Online Portfolio Website is a showcase of my skills, projects, and achievements. The purpose of this project is to create a visually appealing and informative platform where visitors can learn about my professional journey, view my projects, and connect with me.
+#### `js/`
+This folder contains the JavaScript files used for interactivity and additional functionality on the portfolio website.
 
-Repository: https://github.com/Mainak-Das/My-Portfolio
+- **main.js**: Manages the primary interactivity of the portfolio, such as smooth scrolling, animations, and handling form submissions.
+- **utils.js**: Contains utility functions that are reused throughout the website, such as functions for date formatting or dynamic content loading.
 
-Live Demo: https://mainak-das.vercel.app
+### Root Files
 
-<!--## Skills
+- **index.html**: The main HTML file for the portfolio. It includes the layout of the page, links to stylesheets, and JavaScript files, and displays all the content on the website.
+- **README.md**: This file. Provides information about the repository, its structure, and instructions.
+- **.gitignore**: Specifies files and directories that Git should ignore, preventing unnecessary or sensitive files from being tracked in the version control system.
 
-- List some of your key skills relevant to your profession.
-- Mention technologies, programming languages, tools, or frameworks you're proficient in.
-- You can categorize skills if you have a wide range of expertise.
+## How to Use
 
-## Achievements
-
-- Highlight any certifications, awards, or accomplishments related to your field.
-- Provide links or images as evidence if possible.
-
-## Contact Me
-
-Feel free to reach out to me via [Email](mailto:mainakd545@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/mainak-das-8536261bb).-->
-
-## Additional Links
-
-- [Personal Website](https://mainak-das.vercel.app/)
-
-<!--## License
-
-This project is licensed under the [Your Chosen License] License - see the [LICENSE](LICENSE) file for details.
--->
----
+1. Clone the repository to your local machine:
+    ```bash
+    git clone https://github.com/Mainak-Das/My-Portfolio.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd My-Portfolio
+    ```
+3. Open `index.html` in your browser to view the portfolio.
